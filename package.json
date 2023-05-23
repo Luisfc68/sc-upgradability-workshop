@@ -1,0 +1,21 @@
+{
+  "name": "upgradability-workshop",
+  "version": "1.0.0",
+  "description": "Project with examples of different smart contract upgradability techniques",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "solidity",
+    "smart contract",
+    "upgradability"
+  ],
+  "author": "Luis Chavez",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.3",
+    "hardhat": "^2.14.0"
+  }
+}
