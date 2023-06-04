@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.0;
+
+import { VaultF } from "./VaultF.sol";
+
+contract VaultF1 is VaultF {
+    function f() external pure virtual override returns (string memory) {
+        return "f1 v1 executed";
+    }
+}
