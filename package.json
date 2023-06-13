@@ -4,7 +4,9 @@
   "description": "Project with examples of different smart contract upgradability techniques",
   "main": "index.js",
   "scripts": {
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "postinstall": "npm run compile"
   },
   "keywords": [
     "solidity",
