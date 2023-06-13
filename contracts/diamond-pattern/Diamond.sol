@@ -6,10 +6,6 @@ import "./EIP2535.sol";
 
 contract Diamond is Ownable, IDiamondCut {
 
-    struct StoredFacet {
-        address facetAdress;
-    }
-
     mapping (bytes4 => address) private facets;
     bytes4[] private selectors;
     uint private selectorCount;
